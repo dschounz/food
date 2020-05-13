@@ -42,14 +42,14 @@ function setup() {
 // paste your config file here
 let config = {
 //   var firebaseConfig = {
-    apiKey: "AIzaSyBTSg4Np3pdel_f05GbcrWVqSvCb5SDiCk",
-    authDomain: "messageinabottle-d4dd4.firebaseapp.com",
-    databaseURL: "https://messageinabottle-d4dd4.firebaseio.com",
-    projectId: "messageinabottle-d4dd4",
-    storageBucket: "messageinabottle-d4dd4.appspot.com",
-    messagingSenderId: "791310026035",
-    appId: "1:791310026035:web:8b80fae439993fb6706a46",
-
+apiKey: "AIzaSyCx_HX8ygWmBQOw6TMiekSpSN4_zwpoHIU",
+authDomain: "food-1ecd7.firebaseapp.com",
+databaseURL: "https://food-1ecd7.firebaseio.com",
+projectId: "food-1ecd7",
+storageBucket: "food-1ecd7.appspot.com",
+messagingSenderId: "681736193251",
+appId: "1:681736193251:web:134319a16a90f94d8831d6",
+measurementId: "G-F3PB5RG4W9"
 };
 
 firebase.initializeApp(config);
