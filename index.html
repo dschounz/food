@@ -16,24 +16,30 @@
   <meta charset="utf-8">
 </head>
 
-<body style=" background: url(https://ca-times.brightspotcdn.com/dims4/default/444499c/2147483647/strip/true/crop/3000x2000+0+0/resize/840x560!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F7d%2F24%2F0d9fed4c40c285ffca41843ae569%2Fdecadefood.jpg) no-repeat">
+<body style=" background: url(https://ca-times.brightspotcdn.com/dims4/default/444499c/2147483647/strip/true/crop/3000x2000+0+0/resize/840x560!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F7d%2F24%2F0d9fed4c40c285ffca41843ae569%2Fdecadefood.jpg); background-size: 100%">
 <h3>Food is love and love is Food</h3>
 
 <div class="" id="sendDiv">
-  <textarea id="messageInput" name="name" rows="8" cols="80" placeholder="type message here"></textarea>
-  <button id="sendMessageButton" type="button" name="button">send message</button>
+  <textarea id="messageInput" style="font-size:30px" style="font-family:verdana" name="name" rows="8" cols="80" placeholder="What is your favorite food?"></textarea>
+  <button id="sendMessageButton" type="button" name="button">submit</button>
 
 </div>
 
-<div class="hidden" id="receiveDiv">
-  <button id="receiveMessageButton" type="button" name="button">receive message</button>
-  <p id="receivedMessage"></p>
-  <button id="sendAgainButton" clas="hidden" type="button" name="button">send another message</button>
+<div id="receiveDiv">
+
+<br>
+  <button id="receiveMessageButton" style: "bold" style="font-size:20px" type="button" name="button">What other people like </button>
+  <br>
+  <br>
+  <textarea id="receivedMessage" style="font-size:30px" style="font-family:helvetica " name="name" rows="3" cols="40" "></textarea>
+<br>
+  <button id="sendAgainButton" clas="hidden" type="button" name="button">add another recipe <3</button>
 
 
 </div>
 <script src="js/sketch.js"></script>
 <script src="js/gotIt.js"></script>
+<script src="js/foods.js"></script>
 
 
 </body>
