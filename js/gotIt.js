@@ -2,7 +2,7 @@
 
 function gotData(data) {
 
-
+//seedDatabase(foods);
 
   // need to retrieve firebase data with val() method
   // this returns an object of all data
